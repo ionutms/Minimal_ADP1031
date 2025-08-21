@@ -2410,7 +2410,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "UNITED_IC_ADI:U_ADP1031ACPZ-3-R7"
+		(symbol "UNITED_IC_ADI:U_ADP1031ACPZ-2-R7"
 			(pin_names
 				(offset 0.254)
 			)
@@ -2426,7 +2426,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "ADP1031ACPZ-3-R7"
+			(property "Value" "ADP1031ACPZ-2-R7"
 				(at 10.16 73.66 0)
 				(effects
 					(font
@@ -2455,7 +2455,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Three-Channel, Isolated Micropower Management Unit with Seven Digital Isolators"
+			(property "Description" "Three-Channel, Isolated Micropower Management Unit with Seven Digital Isolators (VOUT1=Adjustable, VOUT2=5 V, VOUT3=Adjustable)"
 				(at 10.16 -73.66 0)
 				(effects
 					(font
@@ -2465,7 +2465,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "ADP1031ACPZ-3-R7"
+			(property "MPN" "ADP1031ACPZ-2-R7"
 				(at 10.16 -78.74 0)
 				(effects
 					(font
@@ -2475,7 +2475,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "U_ADP1031ACPZ-3-R7_0_1"
+			(symbol "U_ADP1031ACPZ-2-R7_0_1"
 				(pin unspecified line
 					(at -12.7 66.04 0)
 					(length 2.54)
@@ -3089,7 +3089,7 @@
 					)
 				)
 			)
-			(symbol "U_ADP1031ACPZ-3-R7_1_1"
+			(symbol "U_ADP1031ACPZ-2-R7_1_1"
 				(rectangle
 					(start -10.16 68.58)
 					(end 10.16 -68.58)
@@ -3552,6 +3552,166 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "UNITED_MOUSE_BITES_DATA_BASE:mouse-bite-50mil-305mil"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "MB"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Value" "mouse-bite-midle-50mil-200mil"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "mouse_bite_footprints:mouse-bite-50mil-305mil"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "mouse-bite-50mil-305mil_1_1"
+				(arc
+					(start -15.2437 2.54)
+					(mid -12.9417 0)
+					(end -15.2437 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -15.2437 0)
+					(radius 0.3592)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -11.43 -1.27)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -3.81 -1.27)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 -1.27)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 3.81 -1.27)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 11.43 -1.27)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 15.24 0)
+					(radius 0.3592)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 15.24 -2.54)
+					(mid 12.9377 0)
+					(end 15.24 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -6024,6 +6184,169 @@
 							(font
 								(size 1.27 1.27)
 							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "mouse-bite-50mil-500mil_1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "MB"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Value" "mouse-bite-50mil-450mil"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "mouse_bite_footprints:mouse-bite-50mil-500mil"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "mouse-bite-50mil-500mil_1_1_1"
+				(arc
+					(start -9.9097 2.54)
+					(mid -7.6077 0)
+					(end -9.9097 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -9.9097 0)
+					(radius 0.3592)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -6.096 1.27)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.826 3.81) (xy -8.382 3.81) (xy -8.382 4.572) (xy -9.906 3.81) (xy -8.382 3.048) (xy -8.382 3.81)
+						(xy -7.366 3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.334 3.81) (xy 8.89 3.81) (xy 8.89 3.048) (xy 10.414 3.81) (xy 8.89 4.572) (xy 8.89 3.81)
+						(xy 7.874 3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 6.604 1.27)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 10.414 0)
+					(radius 0.3592)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 10.414 -2.54)
+					(mid 8.1117 0)
+					(end 10.414 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "500 mill"
+					(at 0.254 3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+							(thickness 0.254)
+							(bold yes)
 						)
 					)
 				)
@@ -9085,7 +9408,7 @@
 		)
 		(uuid "0b49fd25-b46b-4b2d-8e81-923dab26ffcf")
 	)
-	(label "3V3"
+	(label "5V0"
 		(at 279.4 99.06 0)
 		(effects
 			(font
@@ -9135,7 +9458,7 @@
 		)
 		(uuid "223043ed-2bc2-48bc-98c9-98ffcc9d7861")
 	)
-	(label "3V3"
+	(label "5V0"
 		(at 317.5 176.53 0)
 		(effects
 			(font
@@ -9185,7 +9508,7 @@
 		)
 		(uuid "3d247697-20e8-4444-9c86-7ca9d5b43cf3")
 	)
-	(label "3V3"
+	(label "5V0"
 		(at 231.14 182.88 0)
 		(effects
 			(font
@@ -9205,7 +9528,7 @@
 		)
 		(uuid "41812111-2ebe-4659-a366-636f55b32b39")
 	)
-	(label "3V3"
+	(label "5V0"
 		(at 231.14 172.72 0)
 		(effects
 			(font
@@ -9495,7 +9818,7 @@
 		)
 		(uuid "b08d4d90-baac-470c-ae6e-1a60b83a0d07")
 	)
-	(label "3V3"
+	(label "5V0"
 		(at 297.18 176.53 0)
 		(effects
 			(font
@@ -9565,7 +9888,7 @@
 		)
 		(uuid "da1652a3-a459-411f-b4f4-6c0de9a46926")
 	)
-	(label "3V3"
+	(label "5V0"
 		(at 307.34 176.53 0)
 		(effects
 			(font
@@ -9756,6 +10079,73 @@
 			(project "minimal_adp1031"
 				(path "/9c9a963e-fcf2-442a-88cc-38bcf1c7456f"
 					(reference "#PWR3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_MOUSE_BITES_DATA_BASE:mouse-bite-50mil-305mil")
+		(at 365.76 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05024fc2-fbc1-4426-a796-bc818273aee4")
+		(property "Reference" "MB2"
+			(at 360.68 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "mouse-bite-midle-50mil-200mil"
+			(at 373.38 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "mouse_bite_footprints:mouse-bite-50mil-305mil"
+			(at 370.84 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 365.76 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 365.76 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "minimal_adp1031"
+				(path "/9c9a963e-fcf2-442a-88cc-38bcf1c7456f"
+					(reference "MB2")
 					(unit 1)
 				)
 			)
@@ -12838,6 +13228,73 @@
 		)
 	)
 	(symbol
+		(lib_id "UNITED_MOUSE_BITES_DATA_BASE:mouse-bite-50mil-305mil")
+		(at 364.49 152.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "523a4330-c08c-46ba-b4ae-141bfa8f6a85")
+		(property "Reference" "MB3"
+			(at 359.41 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "mouse-bite-midle-50mil-200mil"
+			(at 372.11 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "mouse_bite_footprints:mouse-bite-50mil-305mil"
+			(at 369.57 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 364.49 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 364.49 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "minimal_adp1031"
+				(path "/9c9a963e-fcf2-442a-88cc-38bcf1c7456f"
+					(reference "MB3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDA")
 		(at 247.65 184.15 0)
 		(unit 1)
@@ -15778,6 +16235,73 @@
 		)
 	)
 	(symbol
+		(lib_id "UNITED_MOUSE_BITES_DATA_BASE:mouse-bite-50mil-305mil")
+		(at 96.52 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b12e989-71c4-44c9-bfd9-17ec3ce00b5c")
+		(property "Reference" "MB4"
+			(at 91.44 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "mouse-bite-midle-50mil-200mil"
+			(at 104.14 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "mouse_bite_footprints:mouse-bite-50mil-305mil"
+			(at 101.6 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "minimal_adp1031"
+				(path "/9c9a963e-fcf2-442a-88cc-38bcf1c7456f"
+					(reference "MB4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 170.18 71.12 0)
 		(unit 1)
@@ -15908,6 +16432,73 @@
 			(project "minimal_adp1031"
 				(path "/9c9a963e-fcf2-442a-88cc-38bcf1c7456f"
 					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_MOUSE_BITES_DATA_BASE:mouse-bite-50mil-305mil")
+		(at 110.49 168.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d0a02b1-2577-45d4-8ee1-c5813201435a")
+		(property "Reference" "MB5"
+			(at 105.41 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "mouse-bite-midle-50mil-200mil"
+			(at 118.11 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "mouse_bite_footprints:mouse-bite-50mil-305mil"
+			(at 115.57 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "minimal_adp1031"
+				(path "/9c9a963e-fcf2-442a-88cc-38bcf1c7456f"
+					(reference "MB5")
 					(unit 1)
 				)
 			)
@@ -16318,7 +16909,7 @@
 		)
 	)
 	(symbol
-		(lib_id "UNITED_IC_ADI:U_ADP1031ACPZ-3-R7")
+		(lib_id "UNITED_IC_ADI:U_ADP1031ACPZ-2-R7")
 		(at 215.9 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16335,7 +16926,7 @@
 				)
 			)
 		)
-		(property "Value" "ADP1031ACPZ-3-R7"
+		(property "Value" "ADP1031ACPZ-2-R7"
 			(at 215.9 81.28 0)
 			(effects
 				(font
@@ -16344,7 +16935,7 @@
 			)
 		)
 		(property "Footprint" "analog_devices_footprints:CP-41-1_ADI"
-			(at 226.06 203.2 0)
+			(at 226.06 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16354,7 +16945,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADP1031.pdf"
-			(at 226.06 198.12 0)
+			(at 226.06 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16363,8 +16954,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Three-Channel, Isolated Micropower Management Unit with Seven Digital Isolators"
-			(at 226.06 200.66 0)
+		(property "Description" "Three-Channel, Isolated Micropower Management Unit with Seven Digital Isolators (VOUT1=Adjustable, VOUT2=5 V, VOUT3=Adjustable)"
+			(at 226.06 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16373,8 +16964,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ADP1031ACPZ-3-R7"
-			(at 226.06 205.74 0)
+		(property "MPN" "ADP1031ACPZ-2-R7"
+			(at 226.06 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17814,6 +18405,73 @@
 		)
 	)
 	(symbol
+		(lib_id "UNITED_MOUSE_BITES_DATA_BASE:mouse-bite-50mil-305mil")
+		(at 356.87 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1df073a-30ee-49b9-834c-f22227927039")
+		(property "Reference" "MB1"
+			(at 351.79 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "mouse-bite-midle-50mil-200mil"
+			(at 364.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "mouse_bite_footprints:mouse-bite-50mil-305mil"
+			(at 361.95 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 356.87 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 356.87 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/9c9a963e-fcf2-442a-88cc-38bcf1c7456f"
+					(reference "MB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDA")
 		(at 254 115.57 0)
 		(unit 1)
@@ -18798,6 +19456,74 @@
 			(project "minimal_adp1031"
 				(path "/9c9a963e-fcf2-442a-88cc-38bcf1c7456f"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "mouse-bite-50mil-500mil_1")
+		(lib_id "UNITED_MOUSE_BITES_DATA_BASE:mouse-bite-50mil-500mil")
+		(at 266.7 231.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c479b7b7-b186-438a-b79b-956b637331e1")
+		(property "Reference" "MB6"
+			(at 266.7 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "mouse-bite-50mil-450mil"
+			(at 266.7 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "mouse_bite_footprints:mouse-bite-50mil-500mil"
+			(at 266.7 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "minimal_adp1031"
+				(path "/9c9a963e-fcf2-442a-88cc-38bcf1c7456f"
+					(reference "MB6")
 					(unit 1)
 				)
 			)
@@ -20625,6 +21351,74 @@
 			(project "minimal_adp1031"
 				(path "/9c9a963e-fcf2-442a-88cc-38bcf1c7456f"
 					(reference "#PWR31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "mouse-bite-50mil-500mil_1")
+		(lib_id "UNITED_MOUSE_BITES_DATA_BASE:mouse-bite-50mil-500mil")
+		(at 165.1 231.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee6c383a-330d-4694-af50-d1471bcf9134")
+		(property "Reference" "MB7"
+			(at 165.1 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "mouse-bite-50mil-450mil"
+			(at 165.1 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "mouse_bite_footprints:mouse-bite-50mil-500mil"
+			(at 165.1 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "minimal_adp1031"
+				(path "/9c9a963e-fcf2-442a-88cc-38bcf1c7456f"
+					(reference "MB7")
 					(unit 1)
 				)
 			)
